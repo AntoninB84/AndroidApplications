@@ -1,0 +1,2 @@
+rootProject.name='JampaV2'
+include ':app'

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JampaV2</string>
+    <string name="priorite"><u>Priorité</u> : </string>
+    <string name="categorie"><u>Catégorie</u> : </string>
+    <string name="dateCreation"><u>Date de création</u> : </string>
+    <string name="dateLimite"><u>Date limite</u> : </string>
+    <string name="effectue"><u>Tache effectuée</u> : </string>
+    <string name="dateRenouvellement"><u>Date renouvellement</u> : </string>
+    <string name="rappel"><u>Rappel programmé</u> : </string>
+</resources>

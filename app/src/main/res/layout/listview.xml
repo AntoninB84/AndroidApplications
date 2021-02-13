@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_weight="90"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/cell_container"
+        style="@style/cell_lnlyt_container"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:id="@+id/lyt_valider"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="-10dp"
+            android:layout_weight="15"
+            android:orientation="vertical"
+            android:background="@drawable/carre_vert"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="FINI"
+                android:textColor="#D5D1D1"
+                android:textScaleX="2"
+                android:textSize="10sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/cell_part_gauche"
+            style="@style/cell_lnlyt_partG"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/cell_tv_prio"
+                style="@style/cell_tv_prio" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cell_part_droite"
+            style="@style/cell_lnlyt_partD">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+                <TextView
+                    android:id="@+id/cell_tv_titre"
+                    style="@style/cell_tv_titre"
+                    android:layout_weight="6"/>
+
+                <TextView
+                    android:id="@+id/cell_tv_date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:paddingRight="10dp"
+                    android:textAlignment="textEnd"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/cell_tv_descr"
+                style="@style/cell_tv_descr" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tache_id"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="1"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

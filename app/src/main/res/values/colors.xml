@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="rouge">#9a0e35</color>
+    <color name="vert">#85FD2B</color>
+    <color name="Quotidien">#b47cd9</color>
+    <color name="Recurrent">#eefd2b</color>
+    <color name="CT">#2b85fd</color>
+    <color name="MT">#69a0b1</color>
+    <color name="LT">#84c9de</color>
+</resources>
